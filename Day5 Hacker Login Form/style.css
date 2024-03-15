@@ -50,8 +50,8 @@ section span {
 	width: calc(6.25vw - 2px);
 	height: calc(6.25vw - 2px);
 	background: #181818;
-    color: #181818;
-    text-align: center;
+    	color: #181818;
+    	text-align: center;
 	z-index: 2;
 	transition: 1.5s;
 }
@@ -59,15 +59,15 @@ section span {
 section span:hover {
 	background: #0f0;
 	transition: 0s;
-    color: red;
-    text-align: center;
-    font-size: 4rem;
+    	color: red;
+    	text-align: center;
+    	font-size: 4rem;
 }
 
 section .login {
 	position: absolute;
 	width: 400px;
-    background: #222;  
+    	background: #222;  
 	z-index: 1000;
 	display: flex;
 	justify-content: center;
