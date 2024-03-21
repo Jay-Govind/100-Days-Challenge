@@ -11,7 +11,6 @@ section{
 	align-items: center;
 	min-height: 100vh;
 	background: #121212;
-
 }
 .bowl{
 	position: relative;
@@ -52,7 +51,6 @@ section{
 	border: 15px solid #444;
 	border-radius: 50%;
 	box-shadow: 0 10px #222;
-
 }
 .bowl::after{
 	content: "";
@@ -67,17 +65,14 @@ section{
 	animation: animatebowlshadow 5s linear infinite;
 	border-radius: 50%;
 	animation-play-state: running;
-
 }
-
-
 @keyframes animatebowlshadow{
 	0%{
 		left: 50%;
 		width: 150px;
 		height: 60px;
 	}
-25%{
+      25%{
 		left: 55%;
 		width: 140px;
 		height: 65px;
@@ -91,13 +86,7 @@ section{
 		width: 140px;
 		height: 65px;
 	}
-	100%{
-
-
-	}
 }
-
-
 .liquid{
 	position: absolute;
 	top: 50%;
@@ -112,7 +101,6 @@ section{
 	animation: animateliquid 5s linear infinite;
 	animation-play-state: running;
 }
-
 @keyframes animateliquid{
 	0%{
 		transform: rotate(0deg);
@@ -135,8 +123,6 @@ section{
 	100%{
 		transform: rotate(0deg);
 	}
-
-
 }
 .liquid::before{
 	content: "";
@@ -159,7 +145,6 @@ section{
 	border-radius: 50%;
 	animation: animateshadow 5s linear infinite;
 	animation-play-state: running;
-
 }
 @keyframes animateshadow{
 	0%{
@@ -169,7 +154,6 @@ section{
 		top: calc(50% + 150px);
 
 	}
-
 	25%{
 		left: 55%;
 		width: 265px;
@@ -187,7 +171,5 @@ section{
 		width: 265px;
 		height: 30px;
 		top: calc(50% + 130px);
-		
-	}100%{
-	}
+      }
 }
